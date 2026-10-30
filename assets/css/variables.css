@@ -1,0 +1,85 @@
+/* ==========================================================================
+   DESIGN TOKENS & SYSTEM VARIABLES
+   Abinesh Karthick K - Developer Portfolio
+   ========================================================================== */
+
+:root {
+  /* Core Color Palette (Dark Default) */
+  --bg-primary: #080B12;
+  --bg-secondary: #101522;
+  --bg-card: #141B2B;
+  --bg-card-hover: #1A2338;
+  --bg-card-glass: rgba(20, 27, 43, 0.75);
+
+  /* Accents */
+  --accent-primary: #8B5CF6;       /* Violet / Purple */
+  --accent-secondary: #06B6D4;     /* Cyan */
+  --accent-primary-hover: #7C3AED;
+  --accent-secondary-hover: #0891B2;
+  --accent-gradient: linear-gradient(135deg, #8B5CF6 0%, #06B6D4 100%);
+  --accent-gradient-text: linear-gradient(135deg, #A78BFA 0%, #22D3EE 100%);
+
+  /* Typography Colors */
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --text-inverse: #080B12;
+
+  /* Borders & Dividers */
+  --border-color: #263247;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-focus: #8B5CF6;
+  --border-gradient: linear-gradient(135deg, rgba(139, 92, 246, 0.5), rgba(6, 182, 212, 0.5));
+
+  /* Glows & Shadows */
+  --glow-primary: rgba(139, 92, 246, 0.25);
+  --glow-secondary: rgba(6, 182, 212, 0.25);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 25px rgba(139, 92, 246, 0.2);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+
+  /* Spacing */
+  --container-max-width: 1200px;
+  --nav-height: 76px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Light Theme Variables */
+[data-theme="light"] {
+  --bg-primary: #F8FAFC;
+  --bg-secondary: #EDF2F7;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F1F5F9;
+  --bg-card-glass: rgba(255, 255, 255, 0.85);
+
+  --accent-primary: #7C3AED;
+  --accent-secondary: #0891B2;
+  --accent-gradient-text: linear-gradient(135deg, #7C3AED 0%, #0891B2 100%);
+
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --text-inverse: #FFFFFF;
+
+  --border-color: #E2E8F0;
+  --border-subtle: rgba(0, 0, 0, 0.06);
+  --border-focus: #7C3AED;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.12);
+  --shadow-glow: 0 0 25px rgba(124, 58, 237, 0.12);
+}

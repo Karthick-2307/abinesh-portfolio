@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Abinesh Karthick K | Aspiring Full Stack Developer &amp; Software Engineer</title>
+  <meta name="title" content="Abinesh Karthick K | Full Stack Developer Portfolio">
+  <meta name="description" content="Explore the portfolio of Abinesh Karthick K, a Computer Science and Engineering student interested in full-stack development, software engineering, and programming.">
+  <meta name="author" content="Abinesh Karthick K">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://karthick-2307.github.io/abinesh-portfolio/">
+  <meta property="og:title" content="Abinesh Karthick K | Full Stack Developer Portfolio">
+  <meta property="og:description" content="Computer Science &amp; Engineering student passionate about software engineering, full-stack solutions, and algorithmic problem-solving.">
+  <meta property="og:image" content="assets/images/favicon.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Abinesh Karthick K | Developer Portfolio">
+  <meta property="twitter:description" content="Explore verified projects, technical skills in Java, Python, C, Node.js, and MySQL.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       A. NAVIGATION BAR
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="Abinesh Karthick K Home">
+        <div class="logo-badge">AK</div>
+        <span>Abinesh<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#profiles" class="nav-link">Coding Profiles</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark / Light Theme" title="Toggle Theme">
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle-btn" id="menu-toggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         B. HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="home">
+      <canvas id="hero-canvas"></canvas>
+      <div class="hero-glow-bg"></div>
+
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">ABINESH <span class="gradient-text">KARTHICK K</span></h1>
+          <p class="hero-role">Aspiring Full Stack Developer &amp; Software Engineer</p>
+          <p class="hero-degree">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+            Computer Science &amp; Engineering Student
+          </p>
+
+          <p class="hero-bio">
+            I enjoy exploring technology, solving programming problems, and building software solutions. I'm continuously improving my programming and development skills while working towards becoming a Full Stack Developer and Software Engineer.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            
+            <a href="assets/resume.pdf" download="Abinesh_Karthick_Resume.pdf" class="btn btn-secondary" id="resume-download-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <div class="hero-social-links">
+            <a href="https://github.com/Karthick-2307" target="_blank" rel="noopener noreferrer" class="social-link-btn" aria-label="Visit GitHub Profile">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+
+            <a href="https://leetcode.com/u/Abinesh_Karthick/" target="_blank" rel="noopener noreferrer" class="social-link-btn" aria-label="Visit LeetCode Profile">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.874 5.874 0 0 0 .349 1.017 5.938 5.938 0 0 0 .467.881c.068.106.14.209.215.309a5.253 5.253 0 0 0 1.455 1.246 5.24 5.24 0 0 0 2.457.654 5.293 5.293 0 0 0 3.738-1.554l6.096-6.195a1.375 1.375 0 0 0-1.957-1.932l-6.096 6.195a2.544 2.544 0 0 1-1.796.746 2.52 2.52 0 0 1-1.18-.314 2.505 2.505 0 0 1-.699-.598 2.593 2.593 0 0 1-.278-.48 2.87 2.87 0 0 1-.168-.489 2.766 2.766 0 0 1-.03-.1.5.5 0 0 1-.005-.044 2.71 2.71 0 0 1-.03-.984 2.56 2.56 0 0 1 .59-1.026l3.854-4.126 5.406-5.788A1.375 1.375 0 0 0 13.483 0z"/>
+              </svg>
+              <span>LeetCode</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-controls">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="terminal-title">developer@abinesh-pc:~</div>
+            </div>
+            <div class="terminal-body">
+              <p><span class="code-comment">// Developer Persona Profile</span></p>
+              <p><span class="code-keyword">const</span> <span class="code-var">developer</span> = {</p>
+              <p>&nbsp;&nbsp;name: <span class="code-str">"Abinesh Karthick K"</span>,</p>
+              <p>&nbsp;&nbsp;title: <span class="code-str">"Full Stack Developer"</span>,</p>
+              <p>&nbsp;&nbsp;institution: <span class="code-str">"Nehru Institute of Engg &amp; Tech"</span>,</p>
+              <p>&nbsp;&nbsp;languages: [<span class="code-str">"Java"</span>, <span class="code-str">"C"</span>, <span class="code-str">"Python"</span>],</p>
+              <p>&nbsp;&nbsp;technologies: [<span class="code-str">"HTML"</span>, <span class="code-str">"CSS"</span>, <span class="code-str">"Node.js"</span>, <span class="code-str">"MySQL"</span>],</p>
+              <p>&nbsp;&nbsp;mindset: <span class="code-str">"Continuous Problem Solving"</span></p>
+              <p>};</p>
+              <br>
+              <p><span class="code-keyword">function</span> <span class="code-fn">buildFuture</span>() {</p>
+              <p>&nbsp;&nbsp;<span class="code-keyword">return</span> developer.mindset.solveChallenges();</p>
+              <p>}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         C. ABOUT ME SECTION
+         ========================================================================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Who I Am</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Dedicated to engineering scalable software and mastering core computer science fundamentals.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a <strong>Computer Science and Engineering</strong> student at <strong>Nehru Institute of Engineering and Technology</strong> with a strong enthusiasm for software development, system design, and full-stack web applications.
+            </p>
+            <p>
+              My journey centers around strengthening core programming fundamentals across <strong>Java, C, and Python</strong>. From developing algorithmic tools like a <em>Code Integrity &amp; Plagiarism Detector</em> to designing database-backed applications like a <em>Hotel Management App</em> and <em>Lost &amp; Found Portal</em>, I enjoy transforming ideas into structured, dependable code.
+            </p>
+            <p>
+              My goal is to establish a strong career as a <strong>Full Stack Developer and Software Engineer</strong>. I actively practice competitive programming and algorithmic problem-solving on platforms like <strong>LeetCode</strong> and contribute my work to <strong>GitHub</strong>, constantly seeking out challenging problems that expand my engineering toolkit.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Core Programming</h4>
+                  <p>Strong foundations in OOP, Java, C, and Python algorithmic workflows.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Full-Stack Track</h4>
+                  <p>Building clean frontend interfaces and structured backend/database integrations.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Data &amp; Persistence</h4>
+                  <p>Relational schema design and query execution with MySQL.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Growth Mindset</h4>
+                  <p>Consistent daily practice, rapid adoption of new tools, and clean code principles.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual">
+            <div class="about-card">
+              <div class="card-stat-header">
+                <div class="avatar-initials">AK</div>
+                <div>
+                  <h3>Abinesh Karthick K</h3>
+                  <p>Aspiring Full Stack Engineer</p>
+                </div>
+              </div>
+
+              <div class="core-focus-list">
+                <div class="focus-row">
+                  <span class="focus-label">Major Degree</span>
+                  <span class="focus-value">BE Computer Science</span>
+                </div>
+                <div class="focus-row">
+                  <span class="focus-label">College</span>
+                  <span class="focus-value">Nehru Inst of Engg &amp; Tech</span>
+                </div>
+                <div class="focus-row">
+                  <span class="focus-label">Primary Languages</span>
+                  <span class="focus-value">Java, C, Python</span>
+                </div>
+                <div class="focus-row">
+                  <span class="focus-label">Web &amp; Backend</span>
+                  <span class="focus-value">HTML, CSS, Node.js</span>
+                </div>
+                <div class="focus-row">
+                  <span class="focus-label">Database</span>
+                  <span class="focus-value">MySQL</span>
+                </div>
+                <div class="focus-row">
+                  <span class="focus-label">Primary Goal</span>
+                  <span class="focus-value">Full Stack Developer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         D. TECHNICAL SKILLS SECTION
+         ========================================================================== -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Competencies</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">Verified programming languages and development technologies across my academic and project work.</p>
+        </div>
+
+        <div class="skills-categories-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category-card">
+            <div class="category-icon-wrapper">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="category-title">Programming Languages</h3>
+            <div class="skills-pill-group">
+              <div class="skill-item">
+                <svg class="skill-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <!-- Java Icon -->
+                  <path d="M7.7 18.5c-.2 0-.4 0-.6.1-1.3.4-1.2 1.3-.2 1.6 2.3.8 6.4.7 8.5-.1.8-.3 1.1-.9.4-1.4-1.5-.9-4.8-1-8.1-.2zm.5-2.2c-.2 0-.4 0-.6.1-1.6.4-1.5 1.5-.1 1.9 2.8.7 7.7.7 10.3-.1 1-.3 1.4-1 .5-1.7-1.8-1.2-5.9-1.2-10.1-.2zm6.2-7.5c1 .9.7 1.8.2 2.6-.9 1.4-2.4 2.2-3.8 3.3-.4.3-.8.6-1.1 1-.4.5-.4 1.1.2 1.4.6.3 1.4.1 2-.2 1.5-.8 2.8-1.8 3.9-3 1.5-1.6 1.7-3.4.6-5.1-.6-.9-1.3-1.6-2-2.3-.4-.4-.8-.7-1.2-1.1-.3-.3-.6-.6-.7-1 0 0 2.2 1.3 1.9 4.4z"/>
+                </svg>
+                <span>Java</span>
+              </div>
+              <div class="skill-item">
+                <svg class="skill-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <!-- C Icon -->
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8c2.42 0 4.6 1.08 6.07 2.78l-2.48 2.06C14.71 7.74 13.43 7.2 12 7.2c-2.65 0-4.8 2.15-4.8 4.8s2.15 4.8 4.8 4.8c1.43 0 2.71-.54 3.59-1.64l2.48 2.06C16.6 18.92 14.42 20 12 20z"/>
+                </svg>
+                <span>C</span>
+              </div>
+              <div class="skill-item">
+                <svg class="skill-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <!-- Python Icon -->
+                  <path d="M11.9 2c-3.1 0-5.1 1.4-5.1 3.5v2.6h5.3v.9H4.8C2.5 9 1 10.9 1 13.9s1.6 4.8 3.8 4.8h1.6v-2.3c0-2.3 2-4.2 4.3-4.2h5.2c1.9 0 3.4-1.5 3.4-3.4V5.5c0-2.1-2.1-3.5-5.2-3.5h-2.2zm-1.8 1.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2zm2 18.1c3.1 0 5.1-1.4 5.1-3.5V16h-5.3v-.9h7.3c2.3 0 3.8-1.9 3.8-4.8s-1.6-4.8-3.8-4.8h-1.6v2.3c0 2.3-2 4.2-4.3 4.2h-5.2c-1.9 0-3.4 1.5-3.4 3.4v3.3c0 2.1 2.1 3.5 5.2 3.5h2.2zm1.8-1.9a1.1 1.1 0 1 1 0-2.2 1.1 1.1 0 0 1 0 2.2z"/>
+                </svg>
+                <span>Python</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-category-card">
+            <div class="category-icon-wrapper">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="category-title">Frontend Technologies</h3>
+            <div class="skills-pill-group">
+              <div class="skill-item">
+                <svg class="skill-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <!-- HTML5 Icon -->
+                  <path d="M12 2L3 5l2.4 13.9L12 22l6.6-3.1L21 5l-9-3zm0 2.2l6.8 2.2-1.9 11.2L12 19.8l-4.9-2.2-1.9-11.2L12 4.2zm-4.4 5.2h8.8l-.3 1.8H9.3l.3 1.9h6.3l-.6 3.6-3.3 1-3.3-1-.2-1.3H6.8l.4 2.6L12 18l4.8-1.4.9-5.4.1-.7.2-1.8H7.6v.1z"/>
+                </svg>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <svg class="skill-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <!-- CSS3 Icon -->
+                  <path d="M12 2L3 5l2.4 13.9L12 22l6.6-3.1L21 5l-9-3zm0 2.2l6.8 2.2-1.9 11.2L12 19.8l-4.9-2.2-1.9-11.2L12 4.2zm4.3 4.2H7.4l.3 1.8h8.2l-.6 3.6-3.3 1-3.3-1-.2-1.3H6.8l.4 2.6L12 18l4.8-1.4.9-5.4.1-.7.2-1.9z"/>
+                </svg>
+                <span>CSS3</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-category-card">
+            <div class="category-icon-wrapper">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="category-title">Backend &amp; Runtimes</h3>
+            <div class="skills-pill-group">
+              <div class="skill-item">
+                <svg class="skill-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <!-- Node.js Icon -->
+                  <path d="M12 2l9 5.2v10.4L12 22.8 3 17.6V7.2L12 2zm0 2.3L4.8 8.5v7l7.2 4.2 7.2-4.2v-7L12 4.3zm0 3.2a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9z"/>
+                </svg>
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-category-card">
+            <div class="category-icon-wrapper">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="category-title">Database Systems</h3>
+            <div class="skills-pill-group">
+              <div class="skill-item">
+                <svg class="skill-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <!-- MySQL Icon -->
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.2 16.2c-2.4 0-4.4-1.2-5.4-3.1l1.6-.9c.7 1.3 2.1 2.2 3.8 2.2 2.3 0 4-1.5 4-3.7s-1.7-3.7-4-3.7c-1.3 0-2.4.5-3.1 1.4L8.7 8.5c1-1.2 2.6-1.9 4.5-1.9 3.4 0 6 2.4 6 5.8s-2.6 5.8-6 5.8z"/>
+                </svg>
+                <span>MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         E. PROJECTS SECTION
+         ========================================================================== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Verified <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real repositories inspected from my GitHub profile with accurate technical descriptions.</p>
+        </div>
+
+        <div class="projects-controls">
+          <div class="filter-buttons-wrapper" role="tablist">
+            <button class="filter-btn active" data-filter="all" role="tab">All Projects</button>
+            <button class="filter-btn" data-filter="python" role="tab">Python &amp; ML</button>
+            <button class="filter-btn" data-filter="java" role="tab">Java &amp; Database</button>
+            <button class="filter-btn" data-filter="web" role="tab">Web Applications</button>
+          </div>
+
+          <div class="github-sync-notice" id="github-status-notice">
+            <span class="gh-sync-badge">
+              <span class="status-dot"></span>
+              Verified Core Repositories Linked
+            </span>
+          </div>
+        </div>
+
+        <!-- Dynamic Projects Grid (Populated by projects-data.js & main.js) -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Fallback items in case JS is disabled -->
+          <noscript>
+            <article class="project-card">
+              <div class="project-content">
+                <h3 class="project-title">Code Integrity &amp; Plagiarism Detector</h3>
+                <p class="project-description">Algorithmic detection tool to inspect source files and detect plagiarism using tokenization and similarity comparison.</p>
+                <a href="https://github.com/Karthick-2307/Code-Integrity-Plagiarism-Detector" class="btn btn-secondary btn-sm" target="_blank">View on GitHub</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-content">
+                <h3 class="project-title">Hotel Management App</h3>
+                <p class="project-description">Hotel management solution handling room reservations, customer records, and billing with Java and MySQL.</p>
+                <a href="https://github.com/Karthick-2307/HotelManagementApp" class="btn btn-secondary btn-sm" target="_blank">View on GitHub</a>
+              </div>
+            </article>
+          </noscript>
+        </div>
+
+        <div class="projects-footer-cta">
+          <a href="https://github.com/Karthick-2307?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>View All Repositories on GitHub</span>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         F. EDUCATION SECTION
+         ========================================================================== -->
+    <section class="education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">Academic foundations in Computer Science and Engineering principles.</p>
+        </div>
+
+        <div class="education-timeline-wrapper">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="education-card">
+              <div class="edu-institution-row">
+                <h3 class="edu-institution">Nehru Institute of Engineering and Technology</h3>
+                <span class="edu-period-badge">Undergraduate Degree</span>
+              </div>
+              <h4 class="edu-degree">Bachelor of Engineering (BE)</h4>
+              <p class="edu-dept">Department of Computer Science and Engineering</p>
+              
+              <ul class="edu-details-list">
+                <li>
+                  <span class="bullet">▹</span>
+                  <span>Core coursework in Data Structures, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.</span>
+                </li>
+                <li>
+                  <span class="bullet">▹</span>
+                  <span>Active development of software systems, participating in problem-solving challenges and building practical engineering projects.</span>
+                </li>
+              </ul>
+
+              <div class="edu-placeholder-badge">
+                <span>Academic Batch &amp; GPA Details: Editable on request</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         G. CODING PROFILES SECTION
+         ========================================================================== -->
+    <section class="profiles-section" id="profiles">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Online Presence</span>
+          <h2 class="section-title">Coding <span class="gradient-text">Profiles</span></h2>
+          <p class="section-subtitle">Direct links to my public code repositories and algorithmic problem-solving track record.</p>
+        </div>
+
+        <div class="profiles-grid">
+          <!-- GitHub Card -->
+          <div class="profile-card github">
+            <div class="profile-header">
+              <div class="profile-logo-wrapper">
+                <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </div>
+              <div>
+                <h3>GitHub</h3>
+                <p class="profile-handle">@Karthick-2307</p>
+              </div>
+            </div>
+
+            <p class="profile-description">
+              Houses my public projects including the Code Integrity Detector, Hotel Management App, Lost &amp; Found Portal, and Air Quality Predictor with complete commit history.
+            </p>
+
+            <div class="profile-verified-meta">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#10B981" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+              <span>Verified Public Profile &amp; Repositories</span>
+            </div>
+
+            <div class="profile-card-action">
+              <a href="https://github.com/Karthick-2307" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%;">
+                <span>Visit GitHub Profile</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- LeetCode Card -->
+          <div class="profile-card leetcode">
+            <div class="profile-header">
+              <div class="profile-logo-wrapper">
+                <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.874 5.874 0 0 0 .349 1.017 5.938 5.938 0 0 0 .467.881c.068.106.14.209.215.309a5.253 5.253 0 0 0 1.455 1.246 5.24 5.24 0 0 0 2.457.654 5.293 5.293 0 0 0 3.738-1.554l6.096-6.195a1.375 1.375 0 0 0-1.957-1.932l-6.096 6.195a2.544 2.544 0 0 1-1.796.746 2.52 2.52 0 0 1-1.18-.314 2.505 2.505 0 0 1-.699-.598 2.593 2.593 0 0 1-.278-.48 2.87 2.87 0 0 1-.168-.489 2.766 2.766 0 0 1-.03-.1.5.5 0 0 1-.005-.044 2.71 2.71 0 0 1-.03-.984 2.56 2.56 0 0 1 .59-1.026l3.854-4.126 5.406-5.788A1.375 1.375 0 0 0 13.483 0z"/>
+                </svg>
+              </div>
+              <div>
+                <h3>LeetCode</h3>
+                <p class="profile-handle">@Abinesh_Karthick</p>
+              </div>
+            </div>
+
+            <p class="profile-description">
+              Dedicated track of solving algorithmic and data structure problems in Java, C, and Python to develop optimal time and space complexity habits.
+            </p>
+
+            <div class="profile-verified-meta">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#FFA116" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+              <span>Algorithm Practice &amp; Problem Solving</span>
+            </div>
+
+            <div class="profile-card-action">
+              <a href="https://leetcode.com/u/Abinesh_Karthick/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%;">
+                <span>Visit LeetCode Profile</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         H. CONTACT SECTION
+         ========================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+          <p class="section-subtitle">Have an opportunity, collaboration, or project in mind? I'd be happy to connect.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-block">
+            <h3>Ready to talk code?</h3>
+            <p class="contact-intro-text">
+              I am actively seeking software engineering internships, entry-level developer roles, and technical collaborations. Feel free to reach out directly via email, phone, or my coding profiles.
+            </p>
+
+            <div class="contact-channels">
+              <a href="mailto:abineshkarthick03@gmail.com" class="contact-channel-card" aria-label="Send email to abineshkarthick03@gmail.com">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Email Address</span>
+                  <span class="channel-value">abineshkarthick03@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:6380467574" class="contact-channel-card" aria-label="Call 6380467574">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Phone Number</span>
+                  <span class="channel-value">+91 6380467574</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-card">
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address</label>
+                <input type="email" id="form-email" name="email" class="form-input" placeholder="e.g. john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" name="subject" class="form-input" placeholder="e.g. Full Stack Internship Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" name="message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Send Message</span>
+              </button>
+
+              <div class="form-status" id="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       I. FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-badge">AK</div>
+          <div>
+            <h4>Abinesh Karthick K</h4>
+            <p>Aspiring Full Stack Developer | Software Engineer</p>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Quick Links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#profiles">Coding Profiles</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; <span id="copyright-year">2026</span> Abinesh Karthick K. Designed and developed with passion by Abinesh Karthick K.
+        </p>
+
+        <div class="footer-socials">
+          <a href="https://github.com/Karthick-2307" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); margin-right: 1.25rem;" aria-label="GitHub">GitHub</a>
+          <a href="https://leetcode.com/u/Abinesh_Karthick/" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary);" aria-label="LeetCode">LeetCode</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top-btn" id="back-to-top" aria-label="Scroll back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="assets/js/projects-data.js"></script>
+  <script src="assets/js/github-api.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
